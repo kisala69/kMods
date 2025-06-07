@@ -4,7 +4,7 @@
 
 1.  [Modules](#modules)
     1. [Magnet](#magnet)
-    2. [VCF](#vcf)
+    2. [CVF](#cvf)
 2.  [Change History](#change-history)
 
 ## Modules
@@ -53,13 +53,13 @@ A standard use case is to use Magnet to ensure that incoming CVs do not occupy a
 
 Not used, besides standard items.
 
-### VCF
+### CVF
 
 ![CVF](Images/CVF.png)
 
 #### Description
 
-VCF, or Control Voltage Filter, is a utility module for filtering incoming CV's based on a specified CV: values that are inside/outside specified range, will be removed.
+CVF, or Control Voltage Filter, is a utility module for filtering incoming CV's based on a specified CV: values that are inside/outside specified range, will be removed.
 
 Standard use case is to specify a CV range using **Min** and **Max** values, and then use the **Filter** parameter to remove some, or all, CV's from that range.
 
@@ -94,5 +94,5 @@ Not used, besides standard items.
 
 -  **2.0.1** (2025-05-28) Initial release. Contains [Magnet](#magnet) module.
 -  **2.0.2** (2025-06.04) Tooltip updates, [Magnet](#magnet) module code refactoring.
--  **2.0.3** (2025-06.07) Tooltip and User Manual updates, [VCF](#vcf) module added.
+-  **2.0.3** (2025-06.07) Tooltip and User Manual updates, [CVF](#cvf) module added.
 
